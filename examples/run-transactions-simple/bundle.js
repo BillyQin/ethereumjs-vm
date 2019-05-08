@@ -8857,6 +8857,7 @@ module.exports = function (opts, cb) {
 
     // check for invalid opcode
     if (opName === 'INVALID') {
+      console.log(opName, 'interate','bundle')
       return done(ERROR.INVALID_OPCODE);
     }
 
